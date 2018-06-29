@@ -6,11 +6,10 @@
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 5;
 }
 
 .nav-bar--link-outer {
-  width: 25%;
-  float: left;
   text-align: center;
 }
 
@@ -21,4 +20,16 @@
   border: 1px solid #555555;
   padding: 0.3rem 0;
   margin: 0 1.5rem;
+}
+
+@media(max-width: 767px) {
+  .nav-bar--link-inner {
+    margin: 0;
+  }
+}
+
+@media(max-width: 575px) {
+  .NavBar {
+    display: none;
+  }
 }

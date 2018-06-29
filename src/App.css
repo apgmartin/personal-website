@@ -1,5 +1,30 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  padding-top: 2rem;
-  margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width: 767px) {
+  .App {
+    padding-top: 0;
+  }
+}
+
+.page-1 {
+  background-color: #91CB3E;
+}
+
+.page-2 {
+  background-color: #EEE82C;
+}
+
+.page-3 {
+  background-color: #06AED5;
+}
+
+.page-4 {
+  background-color: #ED254E;
 }
