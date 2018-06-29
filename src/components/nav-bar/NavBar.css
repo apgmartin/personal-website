@@ -1,0 +1,24 @@
+.NavBar {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #555555;
+  position: fixed;
+  padding: 1rem 5rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-bar--link-outer {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.nav-bar--link-inner {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  border: 1px solid #555555;
+  padding: 0.3rem 0;
+  margin: 0 1.5rem;
+}
